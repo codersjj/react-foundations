@@ -16,9 +16,12 @@
 
         return (
           <div>
-            <Header title="React" />
-            <Header title="A new title" />
-            <Header />
+            <Header title="Develop. Preview. Ship." />
+            <ul>
+              {names.map(name => (
+                <li>{name}</li>
+              ))}
+            </ul>
           </div>
         )
       }

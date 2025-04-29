@@ -7,8 +7,8 @@
     <script type="text/jsx">
       const app = document.getElementById('app')
 
-      function Header(props) {
-        console.log("🚀 ~ Header ~ props:", props) // { title: "React" }
+      function Header({ title }) {
+        console.log("🚀 ~ Header ~ title:", title) // "React"
         return (<h1>Develop. Preview. Ship.</h1>)
       }
 

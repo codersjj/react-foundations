@@ -8,6 +8,7 @@
       const app = document.getElementById('app')
 
       function Header(props) {
+        console.log("🚀 ~ Header ~ props:", props) // { title: "React" }
         return (<h1>Develop. Preview. Ship.</h1>)
       }
 
@@ -15,7 +16,6 @@
         return (
           <div>
             <Header title="React" />
-            <Header />
           </div>
         )
       }
